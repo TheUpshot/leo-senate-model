@@ -7,7 +7,7 @@ fundyDir    <-  paste(workingDir, "fundamentals", sep = "/")
 ### run the model
 setwd(modelDir)
 n.days <- 3      # number of days to sim. set to "all" to run all days. 
-just.today <-   # if T, overrides n.days
+just.today <- F  # if T, overrides n.days
 n.sims <- 250000
 source("senate-model-2014.R")
 
