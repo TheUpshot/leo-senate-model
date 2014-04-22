@@ -1,5 +1,5 @@
 
-workingDir  <-  "~/projects/leo-public"
+workingDir  <-  getwd()
 dataDir     <-  paste(workingDir, "data-publisher/", sep = "/")
 modelDir    <-  paste(workingDir, "model", sep = "/")
 fundyDir    <-  paste(workingDir, "fundamentals", sep = "/")

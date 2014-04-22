@@ -677,7 +677,7 @@ pollPredict <- function(yr, days, polls, races,
                         ...) {  # add'l parameters passed to houseEffects fxn
   # prior.alpha  numeric
   # k.min        if "useSpline", the empirical spline is used. else should be numeric.
-  load("~/Google Drive/senate/louisiana/la.RData")
+  load(paste(workingDir, "model/louisiana/la.RData", sep = "/"))
   
   #### incorporate non-polling info as prior ####
   if (is.null(race.names)) {
