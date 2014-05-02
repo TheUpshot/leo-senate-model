@@ -1,6 +1,6 @@
 ####
 wd <- paste0(dataDir, "public/_big_assets/")
-today <- format(today(), format = "%e-%b-%y")
+today <- trim(format(today(), format = "%e-%b-%y"))
 
 # update topline number
 filename <- paste0(wd, "senate-likelihood.tsv")
